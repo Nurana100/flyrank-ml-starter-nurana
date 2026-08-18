@@ -1,1 +1,12 @@
-
+{
+  "rows_total": 30000,
+  "rows_flagged": 2016,
+  "flagged_share": 0.0672,
+  "decline_rate_flagged": 0.7063,
+  "decline_rate_overall": 0.5421,
+  "signal_1_verdict": "MIXED (91-180 day window elevated; monotonic staleness story does not hold)",
+  "signal_2_verdict": "CONFIRMED (CTR falls as position tier worsens, on large buckets)",
+  "rule": "freshness_tier==91-180 AND impressions_90d>=500 AND has_position AND ctr < tier-median ctr",
+  "reason_code": "aging_page_underperforming_ctr",
+  "action_label": "refresh_and_fix_snippet"
+}
